@@ -6,7 +6,6 @@ spring:
           uri:  https://github.com/vgrysh/config.git
           basedir: C:/CloudConfigServer-1.0.0/repo/
           clone-on-start: true
-          search-paths: ss, hsps, ss/ss*, hsps/hsps*, ss*, hsps*
 
 server:
   port: 8016
