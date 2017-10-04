@@ -17,3 +17,8 @@ encrypt:
 server:
   port: 8016
 
+
+security:
+  user:
+    name: root
+    password: s3cr3t

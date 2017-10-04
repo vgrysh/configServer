@@ -45,6 +45,7 @@ repositories {
 dependencies {
 	compile('org.springframework.cloud:spring-cloud-config-server')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-security')
 	compile ('com.google.code.gson:gson:2.8.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
