@@ -7,5 +7,13 @@ spring:
           basedir: C:/CloudConfigServer-1.0.0/repo/
           clone-on-start: true
 
+encrypt:
+  key-store:
+    location: classpath:/server.jks
+    password: letmein
+    alias: mytestkey
+    secret: changeme
+
 server:
   port: 8016
+
